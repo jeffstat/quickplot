@@ -1,3 +1,5 @@
+The `quick_plot()` function within the `quickplot` package is used to quickly make ggplot objects with just one line of code.
+
 1. The `quickplot` package was made using functions from the package `devtools`.
 2. The `create_package()` function was used to create the package, saving it to a local directory.
 3. The `use_git()` function was used to create a Git repository.
