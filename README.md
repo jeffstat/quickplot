@@ -1,9 +1,10 @@
+**What is this package:** The `quick_plot()` function within the `quickplot` package is used to quickly make ggplot objects with just one line of code.
+
 **Installation:** `devtools::install_github("jeffstat/quickplot")`
 
 **Example:** `quickplot(x = factor(rbinom(100, 1, 0.4)), y = c(1:100), xlab = "Knows R Studio (0=no, 1=yes)", ylab = "Final Grade (%)")`
 
-The `quick_plot()` function within the `quickplot` package is used to quickly make ggplot objects with just one line of code.
-
+**Exercise 1.1 - How this package was made:***\
 1. The `quickplot` package was made using functions from the package `devtools`.
 2. The `create_package()` function was used to create the package, saving it to a local directory.
 3. The `use_git()` function was used to create a Git repository.
