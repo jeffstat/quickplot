@@ -1,4 +1,4 @@
-**Installation:** `devtools::install_github("jeffstat/quickplot")`
+**Installation:** ```devtools::install_github("jeffstat/quickplot")```
 
 **Example:** `quickplot(x = factor(rbinom(100, 1, 0.4)), y = c(1:100), xlab = "Knows R Studio (0=no, 1=yes)", ylab = "Final Grade (%)")`
 
