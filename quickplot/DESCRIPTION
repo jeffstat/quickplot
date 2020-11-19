@@ -1,0 +1,24 @@
+Package: quickplot
+Title: Make a Boxplot or Scatterplot
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jeffrey",
+           family = "Yiu",
+           role = c("aut", "cre"),
+           email = "jeffrey.yiu@stat.ubc.ca")
+Description: Functions are intended to create graphs with simple code. The quick_plot() function returns a ggplot object. If both `x` and `y` are numeric, then a scatterplot is produced. If `x` is a factor and `y` is numeric, then a boxplot is produced. Other argument classes will return a stop message.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+Imports: 
+    ggplot2,
+    tibble,
+    tidyr,
+    magrittr
+VignetteBuilder: knitr
