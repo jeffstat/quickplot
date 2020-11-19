@@ -1,3 +1,6 @@
+**Example:**
+`quickplot(x = factor(rbinom(100, 1, 0.4)), y = c(1:100), xlab = "Knows R Studio (0=no, 1=yes)", ylab = "Final Grade (%)")`
+
 The `quick_plot()` function within the `quickplot` package is used to quickly make ggplot objects with just one line of code.
 
 1. The `quickplot` package was made using functions from the package `devtools`.
